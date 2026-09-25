@@ -1,0 +1,25 @@
+# Project SilentEcho Dependencies
+# Target Platform: Windows 11 on ARM64 (Qualcomm Snapdragon X Elite / X Plus)
+# Also compatible with Windows x64 / Linux / macOS for simulation & development
+
+# Core Numerical & Signal Processing
+numpy>=1.24.0,<2.3.0
+scipy>=1.10.0
+
+# Computer Vision & Windows Media Foundation
+opencv-python>=4.8.0
+
+# Audio Capture (HP Poly Studio Mic Array)
+sounddevice>=0.4.6
+
+# Hardware Telemetry & Benchmarking
+psutil>=5.9.0
+
+# ONNX Runtime with Qualcomm QNN Execution Provider Support
+# On Windows 11 ARM64 Snapdragon X Series, use onnxruntime-qnn or standard onnxruntime with QNN EP:
+# pip install onnxruntime-qnn --extra-index-url https://aihub.qualcomm.com/wheels/
+onnxruntime>=1.18.0
+onnx>=1.14.0
+
+# Optional Qualcomm AI Hub CLI for model compilation & NPU profiling:
+# qai-hub>=0.15.0

@@ -1,0 +1,29 @@
+{
+  "target_hardware": "Snapdragon X Elite (Hexagon NPU 45 TOPS)",
+  "active_execution_provider": "SIMULATED_PYTHON",
+  "iterations": 50,
+  "mean_e2e_latency_ms": 0.84,
+  "p50_e2e_latency_ms": 0.72,
+  "p95_e2e_latency_ms": 1.59,
+  "p99_e2e_latency_ms": 2.26,
+  "throughput_fps": 1190.1,
+  "npu_duty_cycle_pct": 75.9,
+  "sub_20ms_compliance_pct": 100.0,
+  "breakdown_mean_ms": {
+    "visual_roi_ms": 0.12,
+    "audio_mel_ms": 0.03,
+    "npu_inference_ms": 0.64,
+    "fusion_decode_ms": 0.06
+  },
+  "memory_footprint_mb": {
+    "rss_mb": 110.14,
+    "vms_mb": 1590.57
+  },
+  "power_telemetry": {
+    "npu_active_power_mw": 14500.0,
+    "cpu_baseline_power_mw": 22500.0,
+    "npu_energy_per_frame_mj": 9.247,
+    "cpu_energy_per_frame_mj": 50.223,
+    "energy_efficiency_gain_pct": 81.6
+  }
+}
